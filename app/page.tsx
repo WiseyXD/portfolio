@@ -1,8 +1,7 @@
+import { Navbar } from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <div className='font-bold'>
-
-    </div>
+    <section className='mx-auto w-full  space-y-8 bg-green-500 print:space-y-4'>aryan</section>
   );
 }
