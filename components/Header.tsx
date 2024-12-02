@@ -42,7 +42,7 @@ export const Header = (props: {}) => {
     const pathname = usePathname();
     return (
 
-        <main className="bg-red-500 container relative mx-auto max-w-3xl my-8">
+        <main className="bg-red-500 container relative mx-auto max-w-3xl mt-8 mb-3">
             <Navbar
                 classNames={{
                     item: [
