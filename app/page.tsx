@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -20,7 +20,7 @@ const Portfolio = () => {
     linkedin: "https://linkedin.com"
   };
 
-  const profileImage = "https://github.com/shadcn.png";  // Placeholder for now, replace with your image later
+  const profileImage = "https://github.com/shadcn.png";
 
   const projects = [
     {
@@ -149,13 +149,36 @@ const Portfolio = () => {
 
       {/* Separator */}
       <div className="max-w-3xl mx-auto px-4">
-        <div className="relative py-16 flex items-center justify-center">
-          <div className="absolute left-0 w-1/3 h-[1px] bg-gradient-to-r from-transparent to-gray-200"></div>
-          <div className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-gray-100">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          className="relative py-16 flex items-center justify-center"
+        >
+          <motion.div
+            initial={{ width: 0 }}
+            whileInView={{ width: "33.333333%" }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="absolute left-0 h-[1px] bg-gradient-to-r from-transparent to-gray-200"
+          />
+          <motion.div
+            initial={{ scale: 0, opacity: 0 }}
+            whileInView={{ scale: 1, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.3, delay: 0.4 }}
+            className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-gray-100"
+          >
             <span className="text-xl">✦</span>
-          </div>
-          <div className="absolute right-0 w-1/3 h-[1px] bg-gradient-to-l from-transparent to-gray-200"></div>
-        </div>
+          </motion.div>
+          <motion.div
+            initial={{ width: 0 }}
+            whileInView={{ width: "33.333333%" }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="absolute right-0 h-[1px] bg-gradient-to-l from-transparent to-gray-200"
+          />
+        </motion.div>
       </div>
 
       {/* Projects Section */}
