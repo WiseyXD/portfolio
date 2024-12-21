@@ -51,33 +51,31 @@ const Portfolio = () => {
   return (
     <div className="min-h-screen bg-[#FFFFFF]">
       {/* Navigation */}
-      <nav className="fixed left-0 right-0 w-full z-50">
-        <div className="max-w-2xl mx-auto bg-[#FFFFFF]/70 backdrop-blur-lg py-4 border-b border-gray-100">
-          <div className="px-4">
-            <div className="flex justify-between items-center">
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                whileHover={{ scale: 1.02 }}
-                className="text-xl font-bold text-black cursor-pointer"
-              >
-                {personalInfo.name}
-              </motion.div>
-              <div className="flex gap-6">
-                {navItems.map((item, index) => (
-                  <motion.button
-                    key={item.name}
-                    initial={{ opacity: 0, y: -20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
-                    whileHover={{ y: -2 }}
-                    className="flex items-center gap-2 text-gray-600 hover:text-black transition-colors px-2"
-                  >
-                    <item.icon className="h-4 w-4" />
-                    <span>{item.name}</span>
-                  </motion.button>
-                ))}
-              </div>
+      <nav className="fixed w-full bg-[#FFFFFF]/70 backdrop-blur-lg z-50 py-4 border-gray-100">
+        <div className="max-w-2xl mx-auto px-4">
+          <div className="flex justify-between items-center">
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              whileHover={{ scale: 1.02 }}
+              className="text-xl font-bold text-black cursor-pointer"
+            >
+              {personalInfo.name}
+            </motion.div>
+            <div className="flex gap-6">
+              {navItems.map((item, index) => (
+                <motion.button
+                  key={item.name}
+                  initial={{ opacity: 0, y: -20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  whileHover={{ y: -2 }}
+                  className="flex items-center gap-2 text-gray-600 hover:text-black transition-colors px-2"
+                >
+                  <item.icon className="h-4 w-4" />
+                  <span>{item.name}</span>
+                </motion.button>
+              ))}
             </div>
           </div>
         </div>
