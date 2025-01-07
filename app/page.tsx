@@ -27,7 +27,7 @@ const Portfolio = () => {
       github: "https://github.com/project-alpha"
     },
     {
-      title: "Beta Dashboard",
+      title: "Dashboard",
       description: "Analytics dashboard with real-time data visualization and reporting.",
       tech: ["React", "D3.js", "Node.js", "PostgreSQL"],
       link: "https://beta-dashboard.com",
