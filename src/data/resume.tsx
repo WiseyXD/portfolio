@@ -44,7 +44,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "www.linkedin.com/in/aryan-nagbanshi-9109911b5",
+        url: "https://linkedin.com/in/aryan-nagbanshi-9109911b5",
         icon: Icons.linkedin,
 
         navbar: true,
