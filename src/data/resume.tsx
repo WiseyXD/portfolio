@@ -153,6 +153,8 @@ export const DATA = {
     },
     {
       title: "SCEMask",
+      href: "https://lucia-auth-psi-one.vercel.app",
+      dates: "Apr 2024 - Oct 2024",
       description:
         "A social-media platform where students can anonymously share their experiences and connect with like-minded individuals.",
       technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Zustand"],
@@ -173,6 +175,8 @@ export const DATA = {
     },
     {
       title: "Vision to Furniture",
+      href: "https://vision-to-furniture-v2.vercel.app/",
+      dates: "July 2024 - Aug 2024",
       description:
         "An AI platform that helps users find the perfect furniture piece based on their preferences and budget.",
       technologies: [
@@ -205,6 +209,8 @@ export const DATA = {
     {
       title: "Apurti",
       description: "An intelligent Warehouse Management System",
+      href: "https://apurti-iwms.vercel.app/",
+      dates: "Jan 2025 - May 2025",
       technologies: [
         "NextJS",
         "Vercel AI SDK",
