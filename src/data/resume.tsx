@@ -7,7 +7,7 @@ export const DATA = {
   initials: "AR",
   url: "https://replacewithyourportfolio.com",
   location: "Mumbai, India",
-  locationLink: "https://www.google.com/maps/place/mumbai",
+  locationLink: "https://www.google.com/maps/place/dresden",
   description:
     "Software Engineer. I love building things and helping people. You can find me in the terminal sshing in to my home server.",
   summary:
@@ -16,15 +16,11 @@ export const DATA = {
   skills: [
     "React",
     "Next.js",
-    "AI",
+    "LLM's",
     "Typescript",
     "Node.js",
-    "Python",
-    "Go",
     "Postgres",
     "Docker",
-    "Kubernetes",
-    "Java",
     "AWS",
   ],
   navbar: [
@@ -33,7 +29,7 @@ export const DATA = {
   ],
   contact: {
     email: "aryan.s.nag@gmail.com",
-    tel: "+91 9372779529",
+    tel: "+49 15123865499",
     social: {
       GitHub: {
         name: "GitHub",
@@ -75,7 +71,7 @@ export const DATA = {
       title: "Software Engineer",
       logoUrl: "/atomic.png",
       start: "Dec 2024",
-      end: "Present",
+      end: "Aug 2025",
       description:
         "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
@@ -126,11 +122,11 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Revns",
-      href: "https://www.revns.com/",
-      dates: "Dec 2024 - Apr 2025",
+      title: "explainx.ai",
+      href: "https://www.explainx.ai/",
+      dates: "Jun 2025 - Aug 2025",
       description:
-        "World's first AI agent to manage and optimize your Amazon ads in real-time",
+        "",
       active: true,
       technologies: [
         "Next.js",
