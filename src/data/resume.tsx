@@ -126,7 +126,7 @@ export const DATA = {
       href: "https://www.explainx.ai/",
       dates: "Jun 2025 - Aug 2025",
       description:
-        "",
+        "AI RAG System with various features for modern learning.",
       active: true,
       technologies: [
         "Next.js",
