@@ -6,12 +6,12 @@ export const DATA = {
   name: "Aryan Nagbanshi",
   initials: "AR",
   url: "https://replacewithyourportfolio.com",
-  location: "Mumbai, India",
+  location: "Dresden, Germany",
   locationLink: "https://www.google.com/maps/place/dresden",
   description:
-    "Software Engineer. I love building things and helping people. You can find me in the terminal sshing in to my home server.",
+    "I build scalable systems and AI-powered products.Usually hopping from one tmux session to another, now chasing ideas worth turning into something big.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [won 2 hackathons over numerous hackathons I participated in](/#hackathons). I also had the pleasure of being a founding engineer at an AI based startup AISOLO [buildspace sf1](https://buildspace.so/sf1).",
+    "Full-Stack Developer and MSc Computer Science student at TU Dresden, working across backend systems, DevOps, and AI-driven applications. Previously, [I led backend and infrastructure at AISOLO](#experience), building production systems and shipping features that improved real user metrics. I’ve [won global and national hackathons including NASA Space Apps and Quasar](#hackathons), and also have a Springer publication in AI-based recommendation systems. I enjoy [turning complex ideas into systems that actually run in production](#projects).",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -103,6 +103,14 @@ export const DATA = {
   ],
   education: [
     {
+      school: "Technische Universität Dresden",
+      href: "https://www.tu-dresden.de/",
+      degree: "Master of Science in Computer Science",
+      logoUrl: "/laurier.png",
+      start: "2025",
+      end: "2027",
+    },
+    {
       school: "Mumbai University",
       href: "https://mu.ac.in/",
       degree:
@@ -110,14 +118,6 @@ export const DATA = {
       logoUrl: "/waterloo.png",
       start: "2021",
       end: "2025",
-    },
-    {
-      school: "Presentation convent school",
-      href: "https://wlu.ca",
-      degree: "Primary and Secondary Education",
-      logoUrl: "/laurier.png",
-      start: "2008",
-      end: "2021",
     },
   ],
   projects: [
