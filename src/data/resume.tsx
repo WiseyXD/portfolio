@@ -1,6 +1,6 @@
 // resume filimport { Icons } from "@/components/icons";
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, Lightbulb, LightbulbIcon } from "lucide-react";
 
 export const DATA = {
   name: "Aryan Nagbanshi",
@@ -26,7 +26,8 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/hackathon", icon: LightbulbIcon, label: "Hackathons" },
+
   ],
   contact: {
     email: "aryan.s.nag@gmail.com",
