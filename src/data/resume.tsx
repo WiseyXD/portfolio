@@ -66,13 +66,25 @@ export const DATA = {
   work: [
     {
       company: "AISOLO",
-      href: "https://olly.social",
+      href: "https://aisolo.tech",
       badges: [],
       location: "India",
-      title: "Software Engineer",
-      logoUrl: "/atomic.png",
+      title: "Full Stack Developer",
+      logoUrl: "/aisolo2.svg",
       start: "Dec 2024",
       end: "Aug 2025",
+      description:
+        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+    },
+    {
+      company: "Ural Federal University",
+      href: "https://urfu.ru/en/",
+      badges: [],
+      location: "Russia",
+      title: "Software Developer Intern",
+      logoUrl: "/urfu.jpeg",
+      start: "Jun 2024",
+      end: "July 2024",
       description:
         "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
@@ -82,7 +94,7 @@ export const DATA = {
       badges: [],
       location: "India",
       title: "Software Developer Intern",
-      logoUrl: "/atomic.png",
+      logoUrl: "/hira.png",
       start: "Feb 2023",
       end: "Aug 2023",
       description:
@@ -107,7 +119,7 @@ export const DATA = {
       school: "Technische Universität Dresden",
       href: "https://www.tu-dresden.de/",
       degree: "Master of Science in Computer Science",
-      logoUrl: "/laurier.png",
+      logoUrl: "/tud.png",
       start: "2025",
       end: "2027",
     },
@@ -116,7 +128,7 @@ export const DATA = {
       href: "https://mu.ac.in/",
       degree:
         "Bachelor's Degree of Computer Science with Specialization in AI/ML (CSE-AMIL)",
-      logoUrl: "/waterloo.png",
+      logoUrl: "/mumbai-uni.jpg",
       start: "2021",
       end: "2025",
     },
