@@ -1,4 +1,5 @@
 import { HackathonCard } from "@/components/hackathon-card";
+import ImageGrid from "@/components/image-grid";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
@@ -49,6 +50,11 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
+
+      <section id="image-grid">
+        <ImageGrid />
+      </section>
+
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
