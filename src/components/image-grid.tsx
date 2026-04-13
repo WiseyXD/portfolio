@@ -1,3 +1,4 @@
+import Image from "next/image";
 import BlurFade from "./magicui/blur-fade";
 
 export default function ImageGrid() {
@@ -19,7 +20,7 @@ export default function ImageGrid() {
             key={i}
             className="mb-4 break-inside-avoid overflow-hidden rounded-xl"
           >
-            <img
+            <Image
               src={src}
               alt={`grid-${i}`}
               className="w-full h-auto object-cover rounded-xl transition-transform duration-300 hover:scale-[1.03]"
