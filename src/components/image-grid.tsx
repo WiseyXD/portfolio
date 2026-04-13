@@ -22,6 +22,8 @@ export default function ImageGrid() {
           >
             <Image
               src={src}
+              width={400}
+              height={400}
               alt={`grid-${i}`}
               className="w-full h-auto object-cover rounded-xl transition-transform duration-300 hover:scale-[1.03]"
             />
